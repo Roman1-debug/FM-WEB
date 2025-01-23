@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free FM Radio</title>
+  <link rel="stylesheet" href="fm2.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Free FM Radio</h1>
+  </header>
+
+  <main>
+    <div class="audio-control">
+      <audio id="fmPlayer" controls autoplay>
+        <p>Your browser doesn’t support audio playback.</p>
+      </audio>
+      <div class="controls">
+        <button id="playPause" class="control-button">Play</button>
+        <button id="newStation" class="control-button">Play Random Station</button>
+      </div>
+    </div>
+
+    <section class="info">
+      <h2 id="stationName">Station Name</h2>
+      <p id="stationUrl">Stream URL: </p>
+    </section>
+  </main>
+
+  
+
+  <script src="fm2.js"></script>
+</body>
+</html>

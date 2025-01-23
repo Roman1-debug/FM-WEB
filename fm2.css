@@ -1,0 +1,95 @@
+/* fm.css */
+
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('bg.jpg') no-repeat center center fixed; /* Change to your desired background image */
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Main content styles */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Audio control styles */
+  .audio-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  audio {
+    display: none; /* Hide the default audio controls */
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .control-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .control-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Station info styles */
+  .info {
+    text-align: center;
+  }
+  
+  #stationName {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #stationUrl {
+    font-size: 16px;
+  }
+  
+  /* Footer styles */
+  
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    main {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .control-button {
+      width: 100%;
+    }
+  }
